@@ -1,0 +1,17 @@
+{application, xcli,
+ [
+  {description, "xcli client"},
+  {vsn, "1"},
+  {modules, [
+  	xcli_app,
+  	xcli_sup,
+  	xcli
+  ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { xcli_app, []}},
+  {env, []}
+ ]}.
