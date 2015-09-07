@@ -2,6 +2,10 @@ xcli - it client
 ======
 test 
 
+Server
+--------
+[xser](https://github.com/paladim/xser)
+
 Run
 -----
 rebar compile
@@ -22,7 +26,4 @@ xcli:send("name", "text message").
 
 xcli:i().
 
-Server
---------
-[xser](https://github.com/paladim/xser).
 
