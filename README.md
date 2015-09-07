@@ -1,6 +1,5 @@
 xcli - it client
 ======
-test 
 
 Server
 --------
@@ -20,7 +19,7 @@ xcli:connect("you name").
 
 xcli:list().
 
-xcli:histrory("name").
+xcli:history("name").
 
 xcli:send("name", "text message").
 
